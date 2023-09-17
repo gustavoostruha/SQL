@@ -1,0 +1,29 @@
+-- Create the Employees table
+CREATE TABLE Employees (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Position VARCHAR(50),
+    Salary INT
+);
+
+-- Insert data into the Employees table
+INSERT INTO Employees (ID, Name, Position, Salary) VALUES
+(1, 'John Doe', 'Software Engineer', 80000),
+(2, 'Jane Smith', 'Data Analyst', 70000),
+(3, 'Emily Johnson', 'Product Manager', 90000),
+(4, 'Michael Brown', 'Software Engineer', 75000);
+
+-- Query to select all employees
+SELECT * FROM Employees;
+
+-- Query to find employees with a salary greater than 75000
+SELECT * FROM Employees WHERE Salary > 75000;
+
+-- Query to find the average salary of all employees
+SELECT AVG(Salary) FROM Employees;
+
+-- Query to update the salary of a specific employee
+UPDATE Employees SET Salary = 85000 WHERE ID = 1;
+
+-- Query to delete an employee based on ID
+DELETE FROM Employees WHERE ID = 4;
