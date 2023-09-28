@@ -1,4 +1,4 @@
--- Create the Employees table
+-- Create the Employees table just test
 CREATE TABLE Employees (
     ID INT PRIMARY KEY,
     Name VARCHAR(50),
