@@ -78,18 +78,3 @@ DELETE FROM Employees WHERE ID = 4;
 
 /**
 
-**/
-
-/*****555656**************/
-
--- Query to find employees with a salary greater than 75000
-SELECT * FROM Employees WHERE Salary > 75000;
-
--- Query to delete an employee based on ID
-DELETE FROM Employees WHERE ID = 4;
-
-
-/**
-
-**/
-
