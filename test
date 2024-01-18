@@ -217,3 +217,19 @@ DELETE FROM Employees WHERE ID = 4;
 DELETE FROM Employees WHERE ID = 4;
 
 /************************************/
+
+-- Query to find employees with a salary greater than 75000
+SELECT * FROM Employees WHERE Salary > 75000;
+
+-- Query to find the average salary of all employees
+SELECT AVG(Salary) FROM Employees;
+
+-- Query to update the salary of a specific employee
+UPDATE Employees SET Salary = 85000 WHERE ID = 1;
+
+-- Query to delete an employee based on ID
+DELETE FROM Employees WHERE ID = 4;
+
+DELETE FROM Employees WHERE ID = 4;
+
+/************************************/
