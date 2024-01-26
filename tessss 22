@@ -12,7 +12,6 @@ CREATE TABLE Customers (
     LastName VARCHAR(50),
     Email VARCHAR(100)
 );
-
 -- Create the Orders table
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
