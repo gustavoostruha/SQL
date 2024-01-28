@@ -93,9 +93,7 @@ LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
 GROUP BY Customers.CustomerID;
 
 
-/** COPY **/
-
-/** COPY **/
+/**************/
 
 /** COPY **/
 
