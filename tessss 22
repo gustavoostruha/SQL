@@ -20,6 +20,14 @@ CREATE TABLE Orders (
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
+);
+-- Create the Orders table
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    OrderDate DATE,
+    CustomerID INT,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+); 
 -- Insert data into the Customers table
 INSERT INTO Customers (CustomerID, FirstName, LastName, Email) VALUES
 (1, 'Alice', 'Smith', 'alice@email.com'),
