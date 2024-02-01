@@ -13,6 +13,7 @@ INSERT INTO Employees (ID, Name, Position, Salary) VALUES
 (3, 'Emily Johnson', 'Product Manager', 90000),
 (4, 'Michael Brown', 'Software Engineer', 75000);
 
+
 -- Query to select all employees
 SELECT * FROM Employees;
 
