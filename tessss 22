@@ -20,6 +20,7 @@ CREATE TABLE Orders (
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
+
 );
 -- Create the Orders table
 CREATE TABLE Orders (
