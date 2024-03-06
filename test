@@ -245,5 +245,3 @@ SELECT AVG(Salary) FROM Employees;
 -- Query to update the salary of a specific employee
 UPDATE Employees SET Salary = 85000 WHERE ID = 1;
 /************************************/
--- Query to update the salary of a specific employee
-UPDATE Employees SET Salary = 85000 WHERE ID = 1;
