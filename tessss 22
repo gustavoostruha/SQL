@@ -21,8 +21,6 @@ CREATE TABLE Orders (
 );
 
 
-
-
 );
 -- Create the Orders table
 CREATE TABLE Orders (
