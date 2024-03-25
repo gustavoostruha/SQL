@@ -19,8 +19,6 @@ CREATE TABLE Orders (
     CustomerID INT,
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
-
-
 );
 -- Create the Orders table
 CREATE TABLE Orders (
