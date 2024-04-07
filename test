@@ -253,10 +253,6 @@ UPDATE Employees SET Salary = 85000 WHERE ID = 1;
 -- Query to update the salary of a specific employee
 UPDATE Employees SET Salary = 85000 WHERE ID = 1;
 /************************************/
-
--- Query to update the salary of a specific employee
-UPDATE Employees SET Salary = 85000 WHERE ID = 1;
-/************************************/
 -- Insert data into the Employees table
 INSERT INTO Employees (ID, Name, Position, Salary) VALUES
 (1, 'John Doe', 'Software Engineer', 80000),
