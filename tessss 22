@@ -258,11 +258,7 @@ GROUP BY Customers.CustomerID;
 
 /*********************/
 
-
-
 /*********************/
-
-
 
 //////////////////////
 -- Query to count the number of orders for each customer
