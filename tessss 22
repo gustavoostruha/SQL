@@ -76,8 +76,6 @@ GROUP BY Customers.CustomerID;
 
 /** COPY **/
 
-/** COPY **/
-
 -- Query to count the number of orders for each customer
 SELECT Customers.FirstName, Customers.LastName, COUNT(Orders.OrderID) AS NumberOfOrders
 FROM Customers
