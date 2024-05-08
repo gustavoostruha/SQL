@@ -260,3 +260,8 @@ INSERT INTO Employees (ID, Name, Position, Salary) VALUES
 (2, 'Jane Smith', 'Data Analyst', 70000),
 (3, 'Emily Johnson', 'Product Manager', 90000),
 (4, 'Michael Brown', 'Software Engineer', 75000);
+-- Query to update the salary of a specific employee
+UPDATE Employees SET Salary = 85000 WHERE ID = 1;
+/************************************/
+/************************************//************************************/
+/************************************/
